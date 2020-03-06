@@ -2,8 +2,8 @@ import React from 'react'
 
 const Home = () => {
     return (
-        <div>
-            <p>Kfqkecmeklq</p>
+        <div id='homeContainer'>
+            <p>Welcome!</p>
         </div>
     )
 }

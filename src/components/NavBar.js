@@ -4,16 +4,26 @@ import { Link } from 'react-router-dom'
 const NavBar = () => {
     return(
         <div>
-            <ul>
-                <div className='navbar-logo-container'>
-                    <Link 
-                        className='navbar-logo' 
-                        to={'/'}>
-                            Alexander Van Cappellen
+            <ul id='navList'>
+                <li className='navItem' id='navLogo'>
+                    <Link className = 'navLink'
+                    id='navbar-logo' 
+                    to={'/'}>
+                        Alexander Van Cappellen
                     </Link>
-                </div>
-                <Link to={'/about'}>About</Link>
-                <Link to={'/contact'}>Contact</Link>
+                </li>
+                <li className='navItem'>
+                    <Link className = 'navLink'
+                    to={'/about'}>
+                        About
+                    </Link>
+                </li>
+                <li className='navItem'>
+                    <Link className = 'navLink'
+                    to={'/contact'}>
+                        Contact
+                    </Link>
+                </li>
             </ul>
         </div>
     )
