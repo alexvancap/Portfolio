@@ -29,17 +29,21 @@ code {
   list-style-type: none;
   overflow: hidden;
   background-color: #333;
-  height: 70px;
+  height: 70px
+
 }
 
+/* Shadow under navigation bar */
+
+
 .navItem {
-  float: left;
   line-height: 70px;
   border-right-style: solid;
   border-right-width: 1px;
   border-right-color: rgba(0, 0, 0, 0.246);
   border-top-right-radius: 5px;
   border-bottom-right-radius: 5px;
+  float: right
 }
 
 .navLink {
@@ -58,7 +62,7 @@ code {
 }
 
 #navLogo {
-  top: 0
+  float: left
 }
 
 
